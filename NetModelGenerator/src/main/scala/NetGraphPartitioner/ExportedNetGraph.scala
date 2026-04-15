@@ -1,4 +1,5 @@
-package NetGraphAlgebraDefs
+package NetGraphPartitioner
+
 
 final case class ExportedEdge(
                                src: Int,

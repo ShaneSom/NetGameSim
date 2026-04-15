@@ -1,12 +1,13 @@
-package NetGraphAlgebraDefs
+package NetGraphPartitioner
 
 import NetGraphAlgebraDefs.{Action, NetGraph, NetModelAlgebra, NodeObject}
 import com.typesafe.config.ConfigFactory
-import io.circe.syntax.*
 import io.circe.generic.auto.*
-import scala.jdk.CollectionConverters.*
+import io.circe.syntax.*
+
 import java.nio.charset.StandardCharsets
 import java.nio.file.{Files, Paths}
+import scala.jdk.CollectionConverters.*
 
 object GraphEnrichExport:
   
