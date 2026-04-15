@@ -1,0 +1,71 @@
+{
+  "seed" : 100,
+  "directed" : true,
+  "initialNodeId" : 0,
+  "nodeCount" : 11,
+  "nodes" : [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "edges" : [
+    {
+      "src" : 0,
+      "dst" : 1,
+      "weight" : 5
+    },
+    {
+      "src" : 0,
+      "dst" : 2,
+      "weight" : 10
+    },
+    {
+      "src" : 1,
+      "dst" : 5,
+      "weight" : 9
+    },
+    {
+      "src" : 2,
+      "dst" : 8,
+      "weight" : 15
+    },
+    {
+      "src" : 3,
+      "dst" : 9,
+      "weight" : 13
+    },
+    {
+      "src" : 4,
+      "dst" : 3,
+      "weight" : 2
+    },
+    {
+      "src" : 5,
+      "dst" : 6,
+      "weight" : 8
+    },
+    {
+      "src" : 6,
+      "dst" : 10,
+      "weight" : 7
+    },
+    {
+      "src" : 7,
+      "dst" : 4,
+      "weight" : 13
+    },
+    {
+      "src" : 10,
+      "dst" : 7,
+      "weight" : 11
+    }
+  ]
+}

@@ -40,7 +40,7 @@ lazy val commonDependencies = Seq(
 
 lazy val root = (project in file("."))
   .settings(
-    scalaVersion := "3.2.2",
+    scalaVersion := "3.3.3",
     name := "NetGameSim",
     idePackagePrefix := Some("com.lsc"),
     libraryDependencies ++= commonDependencies,
@@ -49,7 +49,7 @@ lazy val root = (project in file("."))
 
 lazy val NetModelGenerator = (project in file("NetModelGenerator"))
   .settings(
-    scalaVersion := "3.2.2",
+    scalaVersion := "3.3.3",
     name := "NetModelGenerator",
     libraryDependencies ++= commonDependencies ++ Seq(
       "com.google.guava" % "guava" % guavaVersion,
@@ -58,13 +58,16 @@ lazy val NetModelGenerator = (project in file("NetModelGenerator"))
       "commons-io" % "commons-io" % apacheCommonsVersion,
       "org.jgrapht" % "jgrapht-core" % jGraphTlibVersion,
       "org.jgrapht" % "jgrapht-guava" % guavaAdapter2jGraphtVersion,
+      "io.circe" %% "circe-core" % "0.14.10",
+      "io.circe" %% "circe-generic" % "0.14.10",
+      "io.circe" %% "circe-parser" % "0.14.10"
     ),
     libraryDependencies  ++= Seq("ch.qos.logback" % "logback-classic" % logbackVersion)
   ).dependsOn(GenericSimUtilities)
 
 lazy val GenericSimUtilities = (project in file("GenericSimUtilities"))
   .settings(
-    scalaVersion := "3.2.2",
+    scalaVersion := "3.3.3",
     name := "GenericSimUtilities",
     libraryDependencies ++= commonDependencies,
     libraryDependencies  ++= Seq("ch.qos.logback" % "logback-classic" % logbackVersion)

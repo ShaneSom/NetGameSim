@@ -3,6 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/GenericSimUtilities.iml" filepath="$PROJECT_DIR$/.idea/modules/GenericSimUtilities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NetGameSim/IdeaProjects.NetGameSim.iml" filepath="$PROJECT_DIR$/.idea/modules/NetGameSim/IdeaProjects.NetGameSim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NetGameSim/GenericSimUtilities/IdeaProjects.NetGameSim.GenericSimUtilities.iml" filepath="$PROJECT_DIR$/.idea/modules/NetGameSim/GenericSimUtilities/IdeaProjects.NetGameSim.GenericSimUtilities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NetGameSim/GenericSimUtilities/IdeaProjects.NetGameSim.GenericSimUtilities.main.iml" filepath="$PROJECT_DIR$/.idea/modules/NetGameSim/GenericSimUtilities/IdeaProjects.NetGameSim.GenericSimUtilities.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NetGameSim/GenericSimUtilities/IdeaProjects.NetGameSim.GenericSimUtilities.test.iml" filepath="$PROJECT_DIR$/.idea/modules/NetGameSim/GenericSimUtilities/IdeaProjects.NetGameSim.GenericSimUtilities.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NetGameSim/IdeaProjects.NetGameSim.NetGameSim-build.iml" filepath="$PROJECT_DIR$/.idea/modules/NetGameSim/IdeaProjects.NetGameSim.NetGameSim-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NetGameSim/NetModelGenerator/IdeaProjects.NetGameSim.NetModelGenerator.iml" filepath="$PROJECT_DIR$/.idea/modules/NetGameSim/NetModelGenerator/IdeaProjects.NetGameSim.NetModelGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NetGameSim/NetModelGenerator/IdeaProjects.NetGameSim.NetModelGenerator.main.iml" filepath="$PROJECT_DIR$/.idea/modules/NetGameSim/NetModelGenerator/IdeaProjects.NetGameSim.NetModelGenerator.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NetGameSim/NetModelGenerator/IdeaProjects.NetGameSim.NetModelGenerator.test.iml" filepath="$PROJECT_DIR$/.idea/modules/NetGameSim/NetModelGenerator/IdeaProjects.NetGameSim.NetModelGenerator.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NetGameSim/IdeaProjects.NetGameSim.main.iml" filepath="$PROJECT_DIR$/.idea/modules/NetGameSim/IdeaProjects.NetGameSim.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NetGameSim/IdeaProjects.NetGameSim.test.iml" filepath="$PROJECT_DIR$/.idea/modules/NetGameSim/IdeaProjects.NetGameSim.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/NetGameSim.iml" filepath="$PROJECT_DIR$/.idea/modules/NetGameSim.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/NetGameSim-build.iml" filepath="$PROJECT_DIR$/.idea/modules/NetGameSim-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/NetModelGenerator.iml" filepath="$PROJECT_DIR$/.idea/modules/NetModelGenerator.iml" />
