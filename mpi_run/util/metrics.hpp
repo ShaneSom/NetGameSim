@@ -1,8 +1,11 @@
-//
-// Created by Shane on 4/15/2026.
-//
+#ifndef METRICS_HPP
+#define METRICS_HPP
 
-#ifndef NETGAMESIM_METRICS_HPP
-#define NETGAMESIM_METRICS_HPP
+struct Metrics {
+    long long messages_sent = 0;
+    long long bytes_sent = 0;
+    long long iterations = 0;
+    double runtime_seconds = 0.0;
+};
 
-#endif //NETGAMESIM_METRICS_HPP
+#endif

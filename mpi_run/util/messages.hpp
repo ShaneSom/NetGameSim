@@ -1,8 +1,14 @@
-//
-// Created by Shane on 4/15/2026.
-//
+#ifndef MESSAGES_HPP
+#define MESSAGES_HPP
 
-#ifndef NETGAMESIM_MESSAGES_HPP
-#define NETGAMESIM_MESSAGES_HPP
+struct LeaderMsg {
+    int target_node;
+    int candidate_id;
+};
 
-#endif //NETGAMESIM_MESSAGES_HPP
+struct DistMsg {
+    int target_node;
+    long long proposed_distance;
+};
+
+#endif
