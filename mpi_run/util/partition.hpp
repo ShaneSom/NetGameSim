@@ -1,0 +1,8 @@
+//
+// Created by Shane on 4/15/2026.
+//
+
+#ifndef NETGAMESIM_PARTITION_HPP
+#define NETGAMESIM_PARTITION_HPP
+
+#endif //NETGAMESIM_PARTITION_HPP

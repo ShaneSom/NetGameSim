@@ -1,0 +1,8 @@
+//
+// Created by Shane on 4/15/2026.
+//
+
+#ifndef NETGAMESIM_MESSAGES_HPP
+#define NETGAMESIM_MESSAGES_HPP
+
+#endif //NETGAMESIM_MESSAGES_HPP

@@ -1,0 +1,8 @@
+//
+// Created by Shane on 4/15/2026.
+//
+
+#ifndef NETGAMESIM_RUNTIME_STATE_HPP
+#define NETGAMESIM_RUNTIME_STATE_HPP
+
+#endif //NETGAMESIM_RUNTIME_STATE_HPP

@@ -1,0 +1,8 @@
+//
+// Created by Shane on 4/15/2026.
+//
+
+#ifndef NETGAMESIM_METRICS_HPP
+#define NETGAMESIM_METRICS_HPP
+
+#endif //NETGAMESIM_METRICS_HPP
