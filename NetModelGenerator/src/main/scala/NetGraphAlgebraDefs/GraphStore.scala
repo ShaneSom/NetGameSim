@@ -54,8 +54,12 @@ trait GraphStore:
       import java.nio.charset.StandardCharsets.UTF_8
 
       val fullGraphAsList: List[NetGraphComponent] = sm.nodes().asScala.toList ::: sm.edges().asScala.toList.map { edge =>
-        sm.edgeValue(edge.source(), edge.target()).get
-      }
+        (if graphDirectionality == "undirected" then
+          sm.edgeValue(edge.nodeU(), edge.nodeV())
+        else
+          sm.edgeValue(edge.source(), edge.target())
+          ).get
+      }.asInstanceOf[List[NetGraphComponent]]
       Try(new FileOutputStream(s"$dir$fileName", false)).map(fos => new ObjectOutputStream(fos)).map { oos =>
           oos.writeObject(fullGraphAsList)
           oos.flush()
@@ -112,18 +116,14 @@ trait GraphStore:
           else
             node(nd.id.toString)))
       }
-      val linkedGraph = edges.foldLeft(nodesMap) { case (acc, edge) =>
-        val fromNodeId = edge.fromNode.id
-        val toNodeId = edge.toNode.id
-        if acc.contains(fromNodeId) && acc.contains(toNodeId) then
-          acc + (fromNodeId -> acc(fromNodeId).link(to(acc(toNodeId)).`with`(weight(if (edge.cost * 10).floor < 1 then 1 else (edge.cost * 10).floor))))
-        else
-        logger.error(s"Edge $edge is not valid because it contains a node that is not in the graph")
-        acc
+      val linkedGraph = edges.map { edge =>
+        nodesMap(edge.fromNode.id).link(to(nodesMap(edge.toNode.id))
+          .`with`(weight(if (edge.cost * 10).floor < 1 then 1 else (edge.cost * 10).floor))
+        )
       }
 
-      val g = graph(name).`with`(linkedGraph.values.toList: _*).
-        linkAttr().`with`("class", "link-class").`with`(linkedGraph.values.toList: _*)
+      val g = graph(name).`with`(nodesMap.values.toList: _*).
+        linkAttr().`with`("class", "link-class").`with`(linkedGraph: _*)
       Try(new GraphvizCmdLineEngine()).map(cmdlnEngine => cmdlnEngine.timeout(2, TimeUnit.MINUTES)).map { cmdlnEngine =>
           Graphviz.useEngine(cmdlnEngine)
           Graphviz.fromGraph(g).render(Format.DOT).toFile(new File(s"$dir$fileName.${Format.DOT.fileExtension}"))
