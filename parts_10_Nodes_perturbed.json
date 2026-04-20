@@ -1,0 +1,68 @@
+{
+  "ranks" : 4,
+  "initialNodeId" : 0,
+  "ownerOf" : {
+    "0" : 0,
+    "5" : 2,
+    "10" : 3,
+    "1" : 0,
+    "9" : 3,
+    "2" : 0,
+    "7" : 2,
+    "3" : 1,
+    "8" : 2,
+    "4" : 1
+  },
+  "ownedNodesByRank" : {
+    "0" : [
+      0,
+      1,
+      2
+    ],
+    "1" : [
+      3,
+      4
+    ],
+    "2" : [
+      5,
+      7,
+      8
+    ],
+    "3" : [
+      9,
+      10
+    ]
+  },
+  "boundaryEdges" : [
+    {
+      "src" : 1,
+      "dst" : 4,
+      "srcOwner" : 0,
+      "dstOwner" : 1
+    },
+    {
+      "src" : 2,
+      "dst" : 7,
+      "srcOwner" : 0,
+      "dstOwner" : 2
+    },
+    {
+      "src" : 4,
+      "dst" : 5,
+      "srcOwner" : 1,
+      "dstOwner" : 2
+    },
+    {
+      "src" : 8,
+      "dst" : 10,
+      "srcOwner" : 2,
+      "dstOwner" : 3
+    },
+    {
+      "src" : 9,
+      "dst" : 3,
+      "srcOwner" : 3,
+      "dstOwner" : 1
+    }
+  ]
+}
