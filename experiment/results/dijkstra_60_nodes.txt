@@ -1,0 +1,73 @@
+Rank 0 owns: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+Rank 0 ghost nodes: 41 50 31 37 42 19 29 47 25 36 43 55 22
+Rank 3 owns: 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+Rank 3 ghost nodes: 3 17 6 34 23 35 16 32 21 15 42
+Rank 1 owns: 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+Rank 1 ghost nodes: 45 49 59 54 7 9 52 10 33 56 12 44 5 38
+Rank 2 owns: 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45
+Rank 2 ghost nodes: 14 53 30 18 20 28 11 57 13 26 48 27
+Rank 0 dist[0] = 0
+Rank 0 dist[1] = 17
+Rank 0 dist[2] = 15
+Rank 0 dist[3] = 227
+Rank 0 dist[4] = 279
+Rank 0 dist[5] = 50
+Rank 0 dist[6] = 52
+Rank 0 dist[7] = 328
+Rank 0 dist[8] = 145
+Rank 0 dist[9] = 117
+Rank 0 dist[10] = 133
+Rank 0 dist[11] = 270
+Rank 0 dist[12] = 177
+Rank 0 dist[13] = 262
+Rank 0 dist[14] = 170
+Rank 0 dist[15] = 93
+[dijkstra] iterations = 61
+[dijkstra] messages = 54
+Rank 1 dist[16] = 166
+Rank 1 dist[17] = 302
+Rank 1 dist[18] = 113
+Rank 1 dist[19] = 159
+Rank 1 dist[20] = 116
+Rank 1 dist[21] = 144
+Rank 1 dist[22] = 33
+Rank 1 dist[23] = 319
+Rank 1 dist[24] = 149
+Rank 1 dist[25] = 299
+Rank 1 dist[26] = 127
+Rank 1 dist[27] = 287
+Rank 1 dist[28] = 113
+Rank 1 dist[29] = 342
+Rank 1 dist[30] = 245
+Rank 3 dist[46] = 191
+Rank 3 dist[47] = 55
+Rank 3 dist[48] = 80
+Rank 3 dist[49] = 288
+Rank 3 dist[50] = 181
+Rank 3 dist[51] = 208
+Rank 3 dist[52] = 128
+Rank 3 dist[53] = 127
+Rank 3 dist[54] = 151
+Rank 3 dist[55] = 22
+Rank 3 dist[56] = 305
+Rank 3 dist[57] = 39
+Rank 3 dist[58] = 222
+Rank 3 dist[59] = 318
+Rank 3 dist[60] = 299
+Rank 2 dist[31] = 278
+Rank 2 dist[32] = 61
+Rank 2 dist[33] = 259
+Rank 2 dist[34] = 334
+Rank 2 dist[35] = 38
+Rank 2 dist[36] = 66
+Rank 2 dist[37] = 135
+Rank 2 dist[38] = 122
+Rank 2 dist[39] = 75
+Rank 2 dist[40] = 93
+Rank 2 dist[41] = 100
+Rank 2 dist[42] = 99
+Rank 2 dist[43] = 242
+Rank 2 dist[44] = 154
+Rank 2 dist[45] = 115
+[dijkstra] bytes = 648
+[dijkstra] runtime = 0.00379242 s

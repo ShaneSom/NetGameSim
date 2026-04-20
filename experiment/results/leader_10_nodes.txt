@@ -1,0 +1,9 @@
+Rank 1 owns: 6 7 8 9 10
+Rank 1 ghost nodes: 3
+Rank 0 owns: 0 1 2 3 4 5
+Rank 0 ghost nodes: 8 6 7
+[leader] final leader = 10
+[leader] iterations = 4
+[leader] messages = 12
+[leader] bytes = 96
+[leader] runtime = 5.4709e-05 s

@@ -1,0 +1,19 @@
+Rank 0 owns: 0 1 2 3 4 5
+Rank 0 ghost nodes: 8 6 7
+Rank 1 owns: 6 7 8 9 10
+Rank 1 ghost nodes: 3
+Rank 1 dist[6] = 70
+Rank 1 dist[7] = 23
+Rank 1 dist[8] = 29
+Rank 1 dist[9] = 55
+Rank 1 dist[10] = 44
+Rank 0 dist[0] = 0
+Rank 0 dist[1] = 5
+Rank 0 dist[2] = 10
+Rank 0 dist[3] = 68
+Rank 0 dist[4] = 14
+Rank 0 dist[5] = 22
+[dijkstra] iterations = 11
+[dijkstra] messages = 5
+[dijkstra] bytes = 60
+[dijkstra] runtime = 0.000955 s
